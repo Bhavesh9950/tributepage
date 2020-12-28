@@ -1,0 +1,38 @@
+
+#image{
+	width: 50%;
+	height: 50%;
+	box-shadow:20px 20px 10px 10px blue;
+	opacity: 0.7;
+/*position: absolute;*//*CSS position property is absolute, which locks the element in place relative to its parent container and removes it from normal flow of page.*/
+/*
+position: fixed;fixed position, which is a type of absolute positioning that locks an element relative to the browser window*/
+}
+#image:hover{ /*Changes elements when hovered*/
+	width: 70%;
+	height:70%;
+}
+body{
+	background-color: #aaa9ad;
+font-family: 'Audiowide', cursive;
+text-align: center;
+}
+#main{
+	
+}
+h1{
+	position: relative; /*position:reltive allows us to move the elements relative to its normal position without removing it from normal flow of page.;*/
+	top: 30px;
+}
+#image{
+	border-color: green;
+	border-width: 5px;
+	border-radius: 50px;
+	border-style: solid;
+	padding: 10px;
+	margin: 15px;/*An element's margin controls the amount of space between an element's border and surrounding elements.*/
+}
+/*#image-caption{
+	float: left;
+	Floating elements are removed from the normal flow of a document and pushed to either the left or right of their containing parent element
+}*/
